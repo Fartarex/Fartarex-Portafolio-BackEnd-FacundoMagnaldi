@@ -31,8 +31,7 @@ public class Experiencia implements Serializable {
     public Experiencia() {
     }
 
-    public Experiencia(Integer id, String titulo, String empresa, Integer personaId, String fechas, String descripcion) {
-        this.id = id;
+    public Experiencia(String titulo, String empresa, Integer personaId, String fechas, String descripcion) {
         this.titulo = titulo;
         this.empresa = empresa;
         this.personaId =  personaId;

@@ -31,8 +31,7 @@ public class Estudio  {
     public Estudio() {
     }
 
-    public Estudio(Integer id, String titulo, String programa, String fechas, String descripcion, Integer personaId) {
-        this.id = id;
+    public Estudio(String titulo, String programa, String fechas, String descripcion, Integer personaId) {
         this.titulo = titulo;
         this.programa = programa;
         this.fechas = fechas;

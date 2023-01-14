@@ -66,8 +66,8 @@ public class Persona {
 
     }
 
-    public Persona(Integer id, String nombre, String apellido, String domicilio, String telefono, String correo, String sobre_mi, String url_foto, String contrasena, String titulo, String edad, String cumpleanos, String nacionalidad, String cv, List<Estudio> estudios, List<Experiencia> experiencias, List<Proyecto> proyectos, List<Servicio> servicios) {
-        this.id = id;
+    public Persona( String nombre, String apellido, String domicilio, String telefono, String correo, String sobre_mi, String url_foto, String contrasena, String titulo, String edad, String cumpleanos, String nacionalidad, String cv, List<Estudio> estudios, List<Experiencia> experiencias, List<Proyecto> proyectos, List<Servicio> servicios) {
+       
         this.nombre = nombre;
         this.apellido = apellido;
         this.domicilio = domicilio;

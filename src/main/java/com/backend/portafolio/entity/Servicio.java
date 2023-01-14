@@ -24,8 +24,7 @@ public class Servicio implements Serializable {
     public Servicio() {
     }
 
-    public Servicio(Integer id, String titulo, String descripcion, String url_imagen, Integer personaId) {
-        this.id = id;
+    public Servicio(String titulo, String descripcion, String url_imagen, Integer personaId) {
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.url_imagen = url_imagen;
